@@ -1,0 +1,41 @@
+.toggle-group {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-group label:last-of-type {
+  margin-left: 10px;
+}
+
+.toggle-group .toggle-switch {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+  transition: all .1s ease;
+}
+
+.toggle-group input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-group .toggle {
+  display: flex;
+  padding: .12rem;
+  border-radius: 10rem;
+  transition: all .1s ease;
+  background: #ccc;
+  width: 20px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.toggle-group .toggle.active {
+  background: #6163ff;
+}
+
+.toggle-group .toggle.active .toggle-switch {
+  margin-left: auto;
+}

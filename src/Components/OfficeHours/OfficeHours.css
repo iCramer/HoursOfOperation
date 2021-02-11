@@ -1,0 +1,13 @@
+.hours-by-day .day {
+   display: grid;
+   grid-template-columns: 100px 100px 500px;
+   margin-bottom: 1.3rem;
+   align-items: center;
+   min-height: 30px;
+ }
+
+.error {
+  color: #C00;
+  font-size: .8rem;
+  margin-left: 5px;
+}

@@ -1,0 +1,15 @@
+
+
+.brand-form div {
+  display: grid;
+  grid-template-columns: 150px 300px;
+  margin-bottom: .8rem;
+  align-items: center;
+  min-height: 30px;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
